@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My Awesome Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- First Section -->
+    <section id="section1">
+        <h2>Welcome to My Website</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptas possimus corrupti natus quos quia quibusdam aut earum nam at dignissimos vitae illum cupiditate porro, 
+            voluptatum veritatis consectetur numquam. Veritatis, molestiae!</p>
+        <button id="dynamicButton">Click Me!</button>
+        <p id="dynamicContent"></p>
+    </section>
+
+    <!-- Second Section -->
+    <section id="section2">
+        <h2>About This Project</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ab officiis amet explicabo rem. 
+            Vel error beatae adipisci nemo alias, exercitationem a dicta hic iste aut repellat illo accusantium corporis.</p>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Awesome Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
